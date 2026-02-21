@@ -50,4 +50,14 @@ Please build using nRF Connect (VS Code extension, etc.).
 Please check the `.overlay` files in the `boards/` directory for GPIO assignments for each board.
 
 ## Test Video
-(Paste video links here)
+*   Original: OpenPLC Runtime v3 + Raspberry Pi 4B
+    https://youtu.be/51srWoKP_Sg
+
+*   Zephyr(RTOS) + Edited_OpenPLC_v3 with Raspberry Pi 4B
+    https://youtu.be/QVRoRsNYECE
+
+*   Zephyr(RTOS) + Edited_OpenPLC_v3 with Raspberry Pi Pico2W
+    https://youtu.be/r-i1I2-w9lw
+
+*   Zephyr(RTOS) + Edited_OpenPLC_v3 with Nordic nRF54L15-DK
+    https://youtu.be/yJj0W5qVyIY
