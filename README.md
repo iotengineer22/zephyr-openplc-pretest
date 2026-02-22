@@ -45,6 +45,9 @@ west build -p -b rpi_pico2/rp2350a/m33/w
 
 ### Nordic nRF54L15-DK
 Please build using nRF Connect (VS Code extension, etc.).
+```bash
+west build -p -b nrf54l15dk/nrf54l15/cpuapp
+```
 
 ## GPIO Configuration
 Please check the `.overlay` files in the `boards/` directory for GPIO assignments for each board.
@@ -69,4 +72,5 @@ Please check the `.overlay` files in the `boards/` directory for GPIO assignment
     https://youtu.be/xayHDxoTsn0
 
 ## Note
+
 The `src_onoff` folder is a debug folder used to measure the RTOS cycle using GPIO. Please ignore it.
