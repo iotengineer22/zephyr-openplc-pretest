@@ -15,6 +15,7 @@ Build and operation have been confirmed on the following boards:
 *   Raspberry Pi 4B
 *   Raspberry Pi Pico 2 W
 *   Nordic nRF54L15-DK
+*   Seeed Xiao nRF54L15 Sense
 
 ## Demo Description
 This is a simple **self-holding circuit (latching circuit)** demo using ladder logic.
@@ -43,11 +44,8 @@ west build -p always -b rpi_4b
 west build -p -b rpi_pico2/rp2350a/m33/w
 ```
 
-### Nordic nRF54L15-DK
+### Nordic nRF54L15-DK & Seeed Xiao nRF54L15 Sense
 Please build using nRF Connect (VS Code extension, etc.).
-```bash
-west build -p -b nrf54l15dk/nrf54l15/cpuapp
-```
 
 ## GPIO Configuration
 Please check the `.overlay` files in the `boards/` directory for GPIO assignments for each board.
@@ -72,5 +70,4 @@ Please check the `.overlay` files in the `boards/` directory for GPIO assignment
     https://youtu.be/xayHDxoTsn0
 
 ## Note
-
 The `src_onoff` folder is a debug folder used to measure the RTOS cycle using GPIO. Please ignore it.
