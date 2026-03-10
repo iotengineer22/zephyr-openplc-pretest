@@ -62,6 +62,9 @@ Please check the `.overlay` files in the `boards/` directory for GPIO assignment
 
 *   Zephyr(RTOS) + Edited_OpenPLC_v3 with Nordic nRF54L15-DK
     https://youtu.be/yJj0W5qVyIY
+    
+*   Zephyr(RTOS) + Edited_OpenPLC_v3 with Seeed Xiao nRF54L15 Sense
+    https://youtu.be/-4zIHnI9Joc
 
 *   Cyclic_1ms ON-OFF_Jitter with OpenPLC Runtime v3 + Raspberry Pi 4B
     https://youtu.be/3xPex-61GqQ
@@ -70,4 +73,5 @@ Please check the `.overlay` files in the `boards/` directory for GPIO assignment
     https://youtu.be/xayHDxoTsn0
 
 ## Note
+
 The `src_onoff` folder is a debug folder used to measure the RTOS cycle using GPIO. Please ignore it.
